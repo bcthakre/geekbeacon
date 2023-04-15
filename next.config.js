@@ -3,4 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  module.exports = {
+    basePath: process.env.NODE_ENV === "production" ? "/geekbeacon" : "",
+    assetPrefix: process.env.NODE_ENV === "production" ? "/geekbeacon" : "",
+  };
+  
+}

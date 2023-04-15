@@ -5,11 +5,11 @@ const Layout = ({ children }) => {
   return (
     <div className="container mx-auto px-4">
       <Head>
-        <title>Your Blog Title</title>
+        <title>Bhupendrasinh Thakre</title>
       </Head>
 
       <header className="py-10">
-        <h1 className="text-4xl font-bold">Your Blog Title</h1>
+        <h1 className="text-4xl font-bold">Musings</h1>
       </header>
 
       <main>{children}</main>
